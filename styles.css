@@ -1,0 +1,184 @@
+#navBar{
+    position: fixed;
+    top: 16px;
+    width: 100%;
+    min-width: 980px;
+    z-index: 103;
+}
+#navR{
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+#navRlinks{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+#imageL{
+    padding: 15px;
+}
+#GApps{
+    display: inline-block;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x: -132px;
+    background-position-y: -38px;
+    border-radius: 2px;
+    opacity: 0.55;
+    cursor: pointer;
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+#signin{
+    padding-left: 15px;
+    display: inline-block;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    cursor: default;
+    color: #ffffff;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 0 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.navi-links{
+    cursor: pointer;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navi-links:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+}
+#content{
+    height: 233px;
+    margin-top: 89px;
+    text-align: center;
+}
+#voiceSearch{
+    background: url(htpps://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png)0 0 no-repeat;
+    height: 24px;
+    background-size: cover;
+    width: 24px;
+    vertical-align: middle;
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+.footerlinks{
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#footerL{
+    float: left;
+    margin-left: 30px;
+}
+#footerR{
+    float: right;
+    margin-right: 30px;
+}
+#footerL a{
+    padding-left: 27px;
+}
+#footerR a{
+    padding-right: 27px;
+}
+.footerlinks:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: #660099;
+}
+#sideSeparation{
+    flex: 1;
+    display: flex;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 20px;
+}
+#voiceIpCont{
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex: 1 0 auto;
+    cursor: pointer;
+}
+.searchBorder{
+    display: flex;
+    background: #ffffff;
+    height: 44px;
+    border-radius: 24px;
+    z-index: 3;
+    margin-top: 20px;
+    width: 482px;
+}
+.searchBorder:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+.searchBar{
+    display: flex;
+    flex: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    border: rgb(95, 99, 104);
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px;
+    height: 34px !important;
+    cursor: text;
+    word-wrap: break-word;
+    outline: rgb(95, 99, 104);
+} 
+.searchBar:focus{
+    outline: none;
+}
+.buttonRegion{
+    height: 70px;
+    padding-top: 18px;
+    width: 487px;
+    z-index: 0;
+}
+.searchButton{
+    height: 36px;
+    line-height: 27px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    border: 1px solid rgb(242, 242, 242);
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    color: rgb(95, 99, 104);
+    cursor: pointer;
+}
