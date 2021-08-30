@@ -145,6 +145,8 @@ a:visited{
 }
 .searchBar{
     display: flex;
+    position: absolute;
+    left: 50%;
     flex: 100%;
     color: rgba(0, 0, 0, 0.87);
     border: rgb(95, 99, 104);
